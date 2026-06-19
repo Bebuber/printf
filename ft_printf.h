@@ -20,7 +20,6 @@ int	conversion_check(const char *c, va_list args, int *count);
 int	ft_putchar(char c, int *count);
 int	ft_putstr(char *c, int *count);
 int	ft_putnbr(long long n, int *count);
-int	ft_un_int(unsigned int nb, int *count);
 int	ft_hexa(unsigned long address, int chr, int *count);
 int	ft_printf(const char *c, ...);
 
