@@ -36,11 +36,3 @@ int	ft_putnbr(long long n, int *count)
 	(*count)++;
 	return (1);
 }
-
-int	ft_un_int(unsigned int nb, int *count)
-{
-	long long	n;
-
-	n = (long long)nb;
-	return (ft_putnbr(n, count));
-}
