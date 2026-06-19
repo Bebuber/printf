@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include <stdio.h>
 
 int	ft_printf(const char *c, ...)
 {
@@ -34,17 +33,3 @@ int	ft_printf(const char *c, ...)
 	va_end (args);
 	return (count);
 }
-
-//int	main(void)
-//{
-//	int	a;
-//	int b;
-
-//	a = ft_printf("%s", "");
-//	ft_printf("\n%d\n", a);
-
-//	b = printf("%s", "");
-//	printf("\n%d\n", b);
-//	return (0);
-//}
-// gcc -Wall -Wextra -Werror ft_printf.c libftprintf.a && ./a.out
